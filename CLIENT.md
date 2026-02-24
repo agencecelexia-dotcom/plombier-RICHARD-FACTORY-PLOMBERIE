@@ -81,7 +81,7 @@ TEMOIGNAGE_9: "Sylvie H.|5|Installation d'un chauffe-eau thermodynamique. Lilian
 TEMOIGNAGE_10: "Arnaud P.|5|Parfait ! Remplacement d'un robinet en urgence, arrivé rapidement, travail impeccable. Le meilleur plombier du secteur !|octobre 2025|Google"
 
 ## ADMIN
-ADMIN_PASSWORD: "RFP2025!"
+ADMIN_PASSWORD: "1234"
 
 ## SEO
 META_TITLE_ACCUEIL: "Plombier Seyssinet-Pariset — Richard Factory Plomberie | Dépannage 7j/7"

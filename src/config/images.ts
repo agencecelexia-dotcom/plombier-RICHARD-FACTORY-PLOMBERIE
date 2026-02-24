@@ -15,22 +15,22 @@ const HERO_GENERIQUE = "/images/heroes/generique-plombier.jpeg";
 /** #3 — 16:9 — hero plomberie + page plomberie-tuyauterie */
 const IMG_PLOMBERIE_HERO = "/images/heroes/plomberie.jpeg";
 
-/** #4 — 16:9 — hero renovation-sdb + page renovation-complete + realisation sdb-oullins-after */
+/** #4 — 16:9 — hero renovation-sdb + page renovation-complete + realisation sdb-vizille-after */
 const IMG_RENOVATION_SDB = "/images/heroes/renovation-sdb.jpeg";
 
-/** #15 — 4:3 — page douche-italienne + realisation douche-lyon7-after */
+/** #15 — 4:3 — page douche-italienne + realisation douche-seyssins-after */
 const IMG_DOUCHE_ITALIENNE = "/images/pages/renovation-douche-italienne.jpeg";
 
-/** #16 — 4:3 — page PMR + realisation sdb-pmr-lyon6-after */
+/** #16 — 4:3 — page PMR + realisation sdb-pmr-fontaine-after */
 const IMG_SDB_PMR = "/images/pages/renovation-pmr.jpeg";
 
-/** #17 — 3:2 — page chaudiere-gaz + realisation chaudiere-tassin-after */
+/** #17 — 3:2 — page chaudiere-gaz + realisation chaudiere-saint-egreve-after */
 const IMG_CHAUDIERE_GAZ = "/images/pages/chauffage-chaudiere-gaz.jpeg";
 
-/** #19 — 3:2 — page plancher-chauffant + realisation plancher-ecully-after */
+/** #19 — 3:2 — page plancher-chauffant + realisation plancher-claix-after */
 const IMG_PLANCHER_CHAUFFANT = "/images/pages/chauffage-plancher-chauffant.jpeg";
 
-/** #8 — 4:3 — section urgence-card + realisation depannage-lyon2-before */
+/** #8 — 4:3 — section urgence-card + realisation depannage-grenoble-before */
 const IMG_FUITE_EAU = "/images/sections/urgence-card.png";
 
 // ============================================================
@@ -82,27 +82,37 @@ export const pageImages: Record<string, string> = {
 };
 
 // ============================================================
-// Realisations avant/apres (20 emplacements → 14 images uniques)
+// Realisations avant/apres — les nouvelles clés pointent vers les fichiers existants
 // ============================================================
 export const realisationImages: Record<string, string> = {
-  "sdb-seyssinet-before":             "/images/realisations/sdb-seyssinet-before.jpeg",
-  "sdb-seyssinet-after":              "/images/realisations/sdb-seyssinet-after.png",
-  "cuisine-grenoble-before":          "/images/realisations/cuisine-grenoble-before.png",
-  "cuisine-grenoble-after":           "/images/realisations/cuisine-grenoble-after.jpeg",
-  "chauffe-eau-echirolles-before":    "/images/realisations/chauffe-eau-echirolles-before.png",
-  "chauffe-eau-echirolles-after":     "/images/realisations/chauffe-eau-echirolles-after.png",
-  "pac-meylan-before":                "/images/realisations/pac-meylan-before.jpeg",
-  "pac-meylan-after":                 "/images/realisations/pac-meylan-after.png",
-  "sdb-pmr-fontaine-before":          "/images/realisations/sdb-pmr-fontaine-before.jpeg",
+  // Salle de bain Seyssinet-Pariset
+  "sdb-seyssinet-before":             "/images/realisations/sdb-villeurbanne-before.jpeg",
+  "sdb-seyssinet-after":              "/images/realisations/sdb-villeurbanne-after.png",
+  // Cuisine Grenoble
+  "cuisine-grenoble-before":          "/images/realisations/cuisine-lyon3-before.png",
+  "cuisine-grenoble-after":           "/images/realisations/cuisine-lyon3-after.jpeg",
+  // Chauffe-eau Échirolles
+  "chauffe-eau-echirolles-before":    "/images/realisations/chauffe-eau-caluire-before.png",
+  "chauffe-eau-echirolles-after":     "/images/realisations/chauffe-eau-caluire-after.png",
+  // PAC Meylan
+  "pac-meylan-before":                "/images/realisations/pac-bron-before.jpeg",
+  "pac-meylan-after":                 "/images/realisations/pac-bron-after.png",
+  // Salle de bain PMR Fontaine
+  "sdb-pmr-fontaine-before":          "/images/realisations/sdb-pmr-lyon6-before.jpeg",
   "sdb-pmr-fontaine-after":           IMG_SDB_PMR,
-  "chaudiere-saint-egreve-before":    "/images/realisations/chaudiere-saint-egreve-before.png",
+  // Chaudière Saint-Égrève
+  "chaudiere-saint-egreve-before":    "/images/realisations/chaudiere-tassin-before.png",
   "chaudiere-saint-egreve-after":     IMG_CHAUDIERE_GAZ,
-  "douche-seyssins-before":           "/images/realisations/douche-seyssins-before.png",
+  // Douche Seyssins
+  "douche-seyssins-before":           "/images/realisations/douche-lyon7-before.png",
   "douche-seyssins-after":            IMG_DOUCHE_ITALIENNE,
-  "plancher-chauffant-claix-before":  "/images/realisations/plancher-chauffant-claix-before.png",
+  // Plancher chauffant Claix
+  "plancher-chauffant-claix-before":  "/images/realisations/plancher-chauffant-ecully-before.png",
   "plancher-chauffant-claix-after":   IMG_PLANCHER_CHAUFFANT,
+  // Dépannage Grenoble
   "depannage-grenoble-before":        IMG_FUITE_EAU,
-  "depannage-grenoble-after":         "/images/realisations/depannage-grenoble-after.png",
-  "sdb-complete-vizille-before":      "/images/realisations/sdb-complete-vizille-before.png",
+  "depannage-grenoble-after":         "/images/realisations/depannage-lyon2-after.png",
+  // Salle de bain complète Vizille
+  "sdb-complete-vizille-before":      "/images/realisations/sdb-complete-oullins-before.png",
   "sdb-complete-vizille-after":       IMG_RENOVATION_SDB,
 };

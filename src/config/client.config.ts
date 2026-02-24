@@ -89,7 +89,7 @@ export const clientConfig = {
     { name: "Arnaud P.", rating: 5, text: "Parfait ! Remplacement d'un robinet en urgence, arrivé rapidement, travail impeccable. Le meilleur plombier du secteur !", date: "octobre 2025", source: "Google" },
   ],
   admin: {
-    password: "RFP2025!",
+    password: "1234",
   },
   seo: {
     metaTitleAccueil: "Plombier Seyssinet-Pariset — Richard Factory Plomberie | Dépannage 7j/7",
