@@ -21,7 +21,7 @@ const PHOTO_GROUPS: PhotoGroup[] = [
       { path: "/images/heroes/accueil.jpeg", filename: "heroes/accueil.jpeg", usage: "Hero page d'accueil" },
       { path: "/images/heroes/depannage-plomberie.jpeg", filename: "heroes/depannage-plomberie.jpeg", usage: "Hero page depannage plomberie" },
       { path: "/images/heroes/plomberie.jpeg", filename: "heroes/plomberie.jpeg", usage: "Hero page plomberie + page plomberie-tuyauterie" },
-      { path: "/images/heroes/renovation-sdb.jpeg", filename: "heroes/renovation-sdb.jpeg", usage: "Hero page renovation salle de bain + renovation-complete + realisation sdb-oullins" },
+      { path: "/images/heroes/renovation-sdb.jpeg", filename: "heroes/renovation-sdb.jpeg", usage: "Hero page renovation salle de bain + renovation-complete + realisation sdb-vizille" },
       { path: "/images/heroes/chauffage.jpeg", filename: "heroes/chauffage.jpeg", usage: "Hero page chauffage" },
       { path: "/images/heroes/chauffe-eau.jpeg", filename: "heroes/chauffe-eau.jpeg", usage: "Hero page chauffe-eau" },
       { path: "/images/heroes/generique-plombier.jpeg", filename: "heroes/generique-plombier.jpeg", usage: "Hero blog, avis-clients, contact, a-propos, realisations + CTA bandeau" },
